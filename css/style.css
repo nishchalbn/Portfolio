@@ -616,22 +616,77 @@ footer p {
    RESPONSIVE DESIGN
 ========================================= */
 @media (max-width: 768px) {
+  .container {
+    padding: 0 1.2rem;
+  }
+  
+  section {
+    padding: 4rem 0;
+  }
+  
+  .section-title {
+    font-size: 2.2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .hero-content {
+    text-align: center;
+    margin: 0 auto;
+  }
+
   .hero h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+  }
+  
+  .hero p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .btn-group {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
   }
   
   .about-content {
     grid-template-columns: 1fr;
     text-align: center;
+    gap: 2rem;
   }
   
   .about-image {
-    max-width: 300px;
+    max-width: 250px;
     margin: 0 auto;
   }
   
   .about-strengths {
     justify-content: center;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .skill-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  }
+
+  .timeline-item {
+    padding-left: 45px;
+  }
+
+  .timeline-content {
+    padding: 1.5rem;
+  }
+
+  .timeline-content h3 {
+    font-size: 1.2rem;
   }
   
   .nav-links {
