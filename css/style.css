@@ -59,19 +59,17 @@ img {
   margin-bottom: 3rem;
   text-align: center;
   position: relative;
-  display: inline-block;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .section-title::after {
   content: '';
   position: absolute;
-  width: 50%;
+  width: 80px;
   height: 3px;
   background-color: var(--accent-color);
   bottom: -10px;
-  left: 25%;
+  left: 50%;
+  transform: translateX(-50%);
   border-radius: 2px;
 }
 
